@@ -77,7 +77,7 @@ nav ul li:last-child {
 
 .link {
     color: #434455;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link:focus,
@@ -262,6 +262,8 @@ nav ul li:last-child {
     padding: 120px 0;
 }
 
+.our-team-container {}
+
 .description-team {
     margin: 100 auto;
 }
@@ -294,7 +296,6 @@ nav ul li:last-child {
 
 .social-links-item {
     fill: #FFFFFF;
-
 }
 
 .social-links-bg {
@@ -367,7 +368,7 @@ nav ul li:last-child {
 
 .footer-container {
     display: flex;
-    align-items: baseline; 
+    align-items: baseline;
 }
 
 .footer-logo {
@@ -405,4 +406,24 @@ nav ul li:last-child {
     gap: 16px;
     justify-content: center;
     padding-bottom: 32px;
+}
+
+.social-links-bg-footer {
+    height: 40px;
+    width: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-links-bg-footer:hover,
+.social-links-bg-footer:focus {
+    background-color: #31d0aa
+}
+
+.social-links-item-footer {
+    fill: #f4f4fd;
 }
