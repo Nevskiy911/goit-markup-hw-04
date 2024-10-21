@@ -262,7 +262,9 @@ nav ul li:last-child {
     padding: 120px 0;
 }
 
-.our-team-container {}
+.our-team-text {
+    margin-bottom: 8px;
+}
 
 .description-team {
     margin: 100 auto;
@@ -290,8 +292,6 @@ nav ul li:last-child {
     display: flex;
     gap: 24px;
     justify-content: center;
-    padding-bottom: 17px;
-    padding-top: 8px;
 }
 
 .social-links-item {
